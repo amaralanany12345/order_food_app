@@ -1,0 +1,7 @@
+<form [formGroup]="personalInfoForm" (ngSubmit)="apply()">
+    <label>number</label><br/>
+    <input type="text" placeholder="number" formControlName="number" required /><br/>
+    <label>address</label><br/>
+    <input type="text" placeholder="address" formControlName="address" required/><br/>
+    <button type="submit">submit</button>
+</form>

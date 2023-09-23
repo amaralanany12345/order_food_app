@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "catName": "pizza",
+      "catId": 1
+    },
+    {
+      "catName": "shawerma",
+      "catId": 2
+    },
+    {
+      "catName": "burger",
+      "catId": 3
+    },
+    {
+      "catName": "fried chicken",
+      "catId": 4
+    }
+  ],
+  "foods": [
+    {
+      "name": "mix cheese",
+      "price": 30,
+      "catId": 1,
+      "id": 1,
+      "title": "president vita falamanka"
+    },
+    {
+      "name": "chicken",
+      "price": 10,
+      "catId": 2,
+      "id": 2,
+      "title": "chicken shaworma fries "
+    },
+    {
+      "name": "meat",
+      "price": 20,
+      "catId": 3,
+      "id": 3,
+      "title": "meat shawrma katchup"
+    },
+    {
+      "name": "bibrony",
+      "price": 40,
+      "catId": 4,
+      "id": 4,
+      "title": "bibrony fries"
+    },
+    {
+      "name": "mix cheese",
+      "price": 30,
+      "catId": 1,
+      "id": 5,
+      "title": "president vita falamanka"
+    },
+    {
+      "name": "mix meat",
+      "price": 40,
+      "catId": 1,
+      "id": 6,
+      "title": "meat tomya"
+    },
+    {
+      "name": "shawerma meat",
+      "price": 30,
+      "catId": 2,
+      "id": 7,
+      "title": "meat shawrma tomya"
+    },
+    {
+      "name": "chicken rappid",
+      "price": 30,
+      "catId": 4,
+      "id": 8,
+      "title": "fried katchup"
+    }
+  ],
+  "users": [
+    {
+      "username": "saad",
+      "email": "saad@gmail",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "username": "ali",
+      "email": "ali@gmail",
+      "password": "98765",
+      "id": 2
+    },
+    {
+      "username": "ahmed",
+      "email": "ahmed@gmail",
+      "password": "54321",
+      "id": 3
+    },
+    {
+      "username": "ammar",
+      "email": "ammar@gmail",
+      "password": "56789",
+      "id": 4
+    },
+    {
+      "username": "walid",
+      "email": "walid@gmail",
+      "password": "982740",
+      "id": 5
+    }
+  ],
+  "customerCart": [
+    {
+      "username": "saad",
+      "email": "saad@gmail",
+      "foods": {
+        "name": "bibrony",
+        "price": 40,
+        "catId": 4,
+        "id": 4,
+        "title": "bibrony fries"
+      },
+      "id": 1
+    },
+    {
+      "username": "saad",
+      "email": "saad@gmail",
+      "foods": {
+        "name": "chicken",
+        "price": 10,
+        "catId": 2,
+        "id": 2,
+        "title": "chicken shaworma fries "
+      },
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "email": "saad@gmail",
+      "customerNumber": "01208521768",
+      "address": "uohjikl",
+      "total": 120,
+      "history": "2023-09-22T08:15:07.731Z",
+      "customerCart": [
+        {
+          "name": "mix cheese",
+          "price": 30,
+          "catId": 1,
+          "id": 1,
+          "title": "president vita falamanka",
+          "quantity": 3
+        },
+        {
+          "name": "chicken",
+          "price": 10,
+          "catId": 2,
+          "id": 2,
+          "title": "chicken shaworma fries ",
+          "quantity": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "email": "saad@gmail",
+      "customerNumber": "01032058824",
+      "address": "ejkmosfnjgkvl",
+      "total": 110,
+      "history": "2023-09-22T08:19:17.360Z",
+      "customerCart": [
+        {
+          "name": "meat",
+          "price": 20,
+          "catId": 3,
+          "id": 3,
+          "title": "meat shawrma katchup",
+          "quantity": 4
+        },
+        {
+          "name": "chicken",
+          "price": 10,
+          "catId": 2,
+          "id": 2,
+          "title": "chicken shaworma fries ",
+          "quantity": 3
+        }
+      ],
+      "id": 2
+    },
+    {
+      "email": "saad@gmail",
+      "customerNumber": "01205404472",
+      "address": "79809",
+      "total": 200,
+      "history": "2023-09-22T08:34:39.682Z",
+      "customerCart": [
+        {
+          "name": "bibrony",
+          "price": 40,
+          "catId": 4,
+          "id": 4,
+          "title": "bibrony fries",
+          "quantity": 4
+        },
+        {
+          "name": "chicken",
+          "price": 10,
+          "catId": 2,
+          "id": 2,
+          "title": "chicken shaworma fries ",
+          "quantity": 4
+        }
+      ],
+      "id": 3
+    },
+    {
+      "email": "walid@gmail",
+      "customerNumber": "01032058824",
+      "address": "hkbdsui",
+      "total": 250,
+      "history": "2023-09-22T09:19:08.617Z",
+      "customerCart": [
+        {
+          "name": "mix cheese",
+          "price": 30,
+          "catId": 1,
+          "id": 1,
+          "title": "president vita falamanka",
+          "quantity": 3
+        },
+        {
+          "name": "bibrony",
+          "price": 40,
+          "catId": 4,
+          "id": 4,
+          "title": "bibrony fries",
+          "quantity": 4
+        }
+      ],
+      "id": 4
+    },
+    {
+      "email": "walid@gmail",
+      "customerNumber": "80792807",
+      "address": "vuhbdj",
+      "total": 90,
+      "history": "2023-09-22T09:22:29.811Z",
+      "customerCart": [
+        {
+          "name": "meat",
+          "price": 20,
+          "catId": 3,
+          "id": 3,
+          "title": "meat shawrma katchup",
+          "quantity": 3
+        },
+        {
+          "name": "chicken",
+          "price": 10,
+          "catId": 2,
+          "id": 2,
+          "title": "chicken shaworma fries ",
+          "quantity": 3
+        }
+      ],
+      "id": 5
+    }
+  ]
+}

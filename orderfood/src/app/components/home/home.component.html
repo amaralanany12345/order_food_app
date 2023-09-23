@@ -1,0 +1,24 @@
+<header>
+    <h2>{{user.email}}</h2>
+</header>
+<ul>
+    <div class="cartButton">
+        <h4>{{allCustomerCart.length}}</h4>
+        <button (click)="goToCart()">cart</button>
+    </div>
+</ul>
+<select [(ngModel)]="selectedCatId">
+    <option value="0" selected>all</option>
+
+    <option *ngFor="let item of allCatId" [value]="item.catId">{{item.catName}}</option>
+</select>    
+<div class="foodContainer">
+    <div class="food" *ngFor="let item of allFoods;let i= index" [hidden]="selectedCatId!=item.catId">
+        <h4>{{item.name}}</h4>
+        <h4>{{item.price}}</h4>
+        <h4>{{item.catId}}</h4>
+        <h4>{{item.title}}</h4>
+        <h4>{{item.id}}</h4>
+        <button [disabled]="diabledbuttonCard[i]" (click)="addToCart(item.id,i)">add to cart</button>
+    </div>
+</div>

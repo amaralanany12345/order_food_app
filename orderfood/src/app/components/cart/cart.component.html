@@ -1,0 +1,14 @@
+<button class="applyOrder" (click)="applyOrder()">apply order</button>
+<h2>Total :{{total}} </h2>
+<div class="cartContainer">
+    <div class="cart" *ngFor="let item of customerCart;let i = index">
+        <h3>{{item.foods.name}}</h3>
+        <h3>{{item.foods.title}}</h3>
+        <h3>{{item.foods.price}}</h3>
+        <h3>{{item.email}}</h3>
+        <h3>{{item.username}}</h3>
+        <h3>{{item.id}}</h3>
+        <input type="number" placeholder="quantity" [(ngModel)]="item.quantity" (ngModelChange)="handleInputChange($event,i)"/>
+        <button (click)="delete(item.id,i)">remove</button>
+    </div>
+</div>
